@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    font-family: serif;
+    margin: 0 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+body{
+    background: rgb(217, 239, 247);
+}
+h1{
+    font-size: 50px;
+}
+/*-----------------------------------------------------*/
+main{
+    height: 100%;
+}
+main ul{
+    position: absolute;
+    top:60%;
+    left:10%;
+}
+main li{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+main li:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+}
+.pc{
+    display: none;
+    width: 100%;
+}
