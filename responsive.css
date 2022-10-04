@@ -1,0 +1,11 @@
+@media(max-width:760px){
+    .PC{
+    width: 100%;
+    }
+    .pc{
+        display: block;
+    }
+    main ul{
+        top:40%;
+    } 
+}
