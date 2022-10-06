@@ -7,29 +7,86 @@
     color: black;
 }
 body{
-    background: rgb(217, 239, 247);
+    background: rgb(248, 242, 238);
 }
 h1{
     font-size: 50px;
 }
 /*-----------------------------------------------------*/
-main{
-    height: 100%;
+header img{
+    width: 100%;
 }
-main ul{
+header ul{
     position: absolute;
-    top:60%;
+    top:50%;
     left:10%;
 }
-main li{
+header li{
     font-size: 30px;
     padding-bottom: 15px;
+    font-weight: bold;
 }
-main li:hover{
+header li:hover{
     opacity: 0.5;
     text-decoration: underline;
 }
-.pc{
-    display: none;
+
+/*--------------------------------------------*/
+main{
+    width: 85%;
+    margin: 0 auto;
+}
+.about-wrappar,.skill-wrappar,.work-wrappar{
+    display: flex;
+    padding-top: 120px ;
+    margin-top: 120px ;
+    border-top: 1px solid gray;
+}
+.about-wrappar img,.skill-wrappar img{
+    width: 50%;
+    height: 100%;
+    padding-right: 3%;
+}
+.about p,.skill p{
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.midasi{
+    text-decoration: underline;
+    font-size: 30px;
+    padding-left: 7%;
+    padding-bottom: 25px;
+}
+span{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: yellow;
+}
+/*-----------------------------------------------*/
+.work-list img{
     width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+.work-list img:hover{
+    opacity: 0.5;
+}
+.work-list{
+    margin-bottom: 200px;
+}
+/*-------------------------------------------------*/
+.footer-nav{
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+.footer-nav li{
+    padding-right: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.footer-nav a :hover{
+    opacity: 0.5;
 }
